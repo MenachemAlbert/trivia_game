@@ -11,6 +11,5 @@ if __name__ == '__main__':
     app.register_blueprint(question_blueprint, url_prefix="/api/questions")
 
     initial_db()
-    print("initial_db")
 
     app.run(debug=True)
